@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.michihiroyamasaki.sample.activities.ConfirmationActivity">
+
+    <TextView
+        android:id="@+id/ConfirmTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="91dp"
+        android:text="@string/heading_confirmation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loginIdLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/loginid"
+        app:layout_constraintLeft_toLeftOf="@+id/ConfirmTitleText"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmTitleText" />
+
+    <TextView
+        android:id="@+id/genderlabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/gender"
+        app:layout_constraintRight_toRightOf="@+id/loginIdLabelText"
+        app:layout_constraintTop_toBottomOf="@+id/loginIdLabelText" />
+
+    <TextView
+        android:id="@+id/prefectureLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/prefecture"
+        app:layout_constraintRight_toRightOf="@+id/genderlabelText"
+        app:layout_constraintTop_toBottomOf="@+id/genderlabelText" />
+
+    <TextView
+        android:id="@+id/birthdayLabelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/birthday"
+        app:layout_constraintRight_toRightOf="@+id/prefectureLabelText"
+        app:layout_constraintTop_toBottomOf="@+id/prefectureLabelText" />
+
+    <TextView
+        android:id="@+id/loginIdValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/loginIdLabelText"
+        app:layout_constraintLeft_toRightOf="@+id/loginIdLabelText"
+        app:layout_constraintTop_toTopOf="@+id/loginIdLabelText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/genderValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/genderlabelText"
+        app:layout_constraintLeft_toLeftOf="@+id/loginIdValueText"
+        app:layout_constraintTop_toTopOf="@+id/genderlabelText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/prefectureValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/genderValueText"
+        app:layout_constraintTop_toBottomOf="@+id/genderValueText" />
+
+    <TextView
+        android:id="@+id/birthDayValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/prefectureValueText"
+        app:layout_constraintTop_toBottomOf="@+id/prefectureValueText" />
+
+    <Button
+        android:id="@+id/registButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_regist"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birthdayLabelText" />
+
+    <Button
+        android:id="@+id/goBackToRegistButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_back"
+        app:layout_constraintBottom_toBottomOf="@+id/registButton"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintLeft_toRightOf="@+id/registButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/registButton"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

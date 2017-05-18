@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MVPテスト</string>
+    <string name="title_login">ログイン</string>
+    <string name="title_regist">登録</string>
+    <string name="title_confirmation">登録確認</string>
+    <string name="title_order">注文</string>
+    <string name="btn_accept">OK</string>
+    <string name="btn_positive">YES</string>
+    <string name="btn_negative">NO</string>
+
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+
+    <string name="login_success">ログイン完了</string>
+    <string name="login_failure">ログイン失敗</string>
+
+    <string name="btn_toregist">新規登録はこちら</string>
+    <string name="btn_login">ログイン</string>
+
+    <string name="hint_password">パスワード</string>
+    <string name="hint_userid">ユーザID</string>
+
+    <string name="heading_cart">注文リスト</string>
+    <string name="heading_confirmation">登録内容</string>
+    <string name="loginid">ログインID</string>
+    <string name="password">パスワード</string>
+    <string name="gender">性別</string>
+    <string name="prefecture">都道府県</string>
+    <string name="birthday">生年月日</string>
+    <string name="age">年齢</string>
+    <string name="regist_confirm">確認</string>
+
+    <string name="userid_empty">ユーザIDが入力されてません</string>
+    <string name="password_empty">パスワードが入力されていません</string>
+    <string name="gender_empty">性別が選択されていません</string>
+    <string name="prefecture_empty">都道府県が選択されていません</string>
+    <string name="birthday_empty">生年月日が入力されていません</string>
+    <string name="age_empty">年齢が選択されていません</string>
+    <string name="no_goods">商品がありません</string>
+
+
+    <string name="unit_age">代</string>
+    <string name="unit_goods">個</string>
+    <string name="unit_currency">円</string>
+    <string name="sum">合計</string>
+
+    <string name="btn_order">注文</string>
+    <string name="btn_regist">登録</string>
+    <string name="btn_back">戻る</string>
+    <string name="btn_cart">カートをみる</string>
+
+</resources>
